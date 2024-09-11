@@ -11474,6 +11474,8 @@ EOF
     
 EOF
 
+               ;;
+            
                 "GNU")
                     set_colors fg 7
                     read -rd '' ascii_data <<'EOF'
