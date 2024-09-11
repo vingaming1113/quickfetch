@@ -4788,7 +4788,7 @@ get_user_config() {
         err "Config: Sourced user config.    (${XDG_CONFIG_HOME}/neofetch/config)"
 
     elif [[ -z "$no_config" ]]; then
-        config_file="${XDG_CONFIG_HOME}/neofetch/config.conf"
+        config_file="${XDG_CONFIG_HOME}/quickfetch/config.conf"
 
         # The config file doesn't exist, create it.
         mkdir -p "${XDG_CONFIG_HOME}/neofetch/"
