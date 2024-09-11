@@ -7,10 +7,10 @@ all:
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
 	@mkdir -p $(DESTDIR)$(MANDIR)/man1
-	@cp -p neofetch $(DESTDIR)$(PREFIX)/bin/neofetch
+	@cp -p quickfetch $(DESTDIR)$(PREFIX)/bin/quickfetch
 	@cp -p neofetch.1 $(DESTDIR)$(MANDIR)/man1
-	@chmod 755 $(DESTDIR)$(PREFIX)/bin/neofetch
+	@chmod 755 $(DESTDIR)$(PREFIX)/bin/quickfetch
 
 uninstall:
-	@rm -rf $(DESTDIR)$(PREFIX)/bin/neofetch
+	@rm -rf $(DESTDIR)$(PREFIX)/bin/quickfetch
 	@rm -rf $(DESTDIR)$(MANDIR)/man1/neofetch.1*
