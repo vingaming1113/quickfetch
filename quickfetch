@@ -5648,8 +5648,9 @@ hdddyo+ohddyosdddddddddho+oydddy++ohdddh
 EOF
         ;;
 
-        "Redox OS"*)
-            set_colors 4 5 7 6
+
+        "Redox"* | "Redox OS"*)
+            set_colors 0 16
             read -rd '' ascii_data <<'EOF'
 
 
