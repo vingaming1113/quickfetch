@@ -73,6 +73,7 @@ print_info() {
     info "CPU" cpu
     info "GPU" gpu
     info "RAM" memory
+    prin "uname -a output" "$(uname -a)"
 
     # info "GPU Driver" gpu_driver  # Linux/macOS only
     # info "Disk" disk
